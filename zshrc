@@ -1,9 +1,7 @@
 # Created by newuser for 4.3.10
 #
 
-SHELLPATH=~/env/zsh
-
-source ${SHELLPATH}/init.zshrc
+source ${ENVPATH}/zsh/init.zshrc
 
 export PATH=~/bin:$PATH
 export SVN_EDITOR=vim
@@ -19,6 +17,6 @@ alias cd='cdls'
 #alias gvim="gvim -geom 160x80"
 alias ssh='ssh -X'
 
-source ${SHELLPATH}/ius.zshrc
-source ${SHELLPATH}/verdi.zshrc
+source ${ENVPATH}/zsh/ius.zshrc
+source ${ENVPATH}/zsh/verdi.zshrc
 
