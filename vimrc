@@ -38,10 +38,10 @@ elseif filereadable(expand("~/.config/nvim/vimrc.bundles")) " neovim
 endif
 
 " install pathogen
-source ~/env/vim/autoload/pathogen.vim
+source D:/work/env/vim/autoload/pathogen.vim
 " execute pathogen#infect()
 " execute pathogen#infect('bundle/{}', '~/src/vim/bundle/{}')
-execute pathogen#infect('~/env/vim/bundle/{}')
+execute pathogen#infect('D:/work/env/vim/bundle/{}')
 
 " ensure ftdetect et al work by including this after the bundle stuff
 filetype plugin indent on
