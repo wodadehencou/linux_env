@@ -1,6 +1,6 @@
 # Created by newuser for 4.3.10
 #
-source /tools/script/init.zshrc
+source ~/env/zsh/init.zshrc
 
 export PATH=~/bin:$PATH
 export SVN_EDITOR=vim
@@ -15,9 +15,4 @@ cdls(){chdir $1;ls}
 alias cd='cdls'
 #alias gvim="gvim -geom 160x80"
 alias ssh='ssh -X'
-
-source /tools/synopsys/env.zshrc
-source /tools/cadence/env.zshrc
-
-export VCS_UVM_HOME=/tools/synopsys/vcsmx-201412-sp2/etc/uvm-1.2
 
