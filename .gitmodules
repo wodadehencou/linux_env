@@ -1,0 +1,15 @@
+[submodule "XShellColorSchemes"]
+	path = XShellColorSchemes
+	url = https://github.com/AlphaLiu/XShellColorSchemes.git
+[submodule "vim/bundle/molokai"]
+	path = vim/bundle/molokai
+	url = https://github.com/vim-scripts/molokai.git
+[submodule "vim/bundle/phd"]
+	path = vim/bundle/phd
+	url = https://github.com/vim-scripts/phd.git
+[submodule "vim/bundle/Solarized"]
+	path = vim/bundle/Solarized
+	url = https://github.com/vim-scripts/Solarized.git
+[submodule "vim/bundle/verilog_systemverilog.vim"]
+	path = vim/bundle/verilog_systemverilog.vim
+	url = https://github.com/vhda/verilog_systemverilog.vim.git
